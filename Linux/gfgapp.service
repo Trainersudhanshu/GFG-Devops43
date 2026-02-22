@@ -1,0 +1,8 @@
+[Unit]
+Description=Python server
+
+[Service]
+
+ExecStart= python3 /app.py
+MemoryLimit=201M
+CPUShares=1024

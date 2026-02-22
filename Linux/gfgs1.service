@@ -1,0 +1,8 @@
+[Unit]
+Description=CPU Stress command service
+
+[Service]
+
+ExecStart= dd if=/dev/zero of=/dev/null
+MemoryLimit=201M
+CPUShares=1024
